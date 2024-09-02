@@ -23,7 +23,7 @@ def main():
     # Add a stylish button to trigger the drawing
     if st.button('🖍️ Draw Ganpati'):
         # Check if the turtle drawing script exists
-        script_path = "draw_ganesha.py"
+        script_path = "https://github.com/Yash-Bari/Ganesha_Drawing/blob/main/draw_ganesha.py"
         if os.path.exists(script_path):
             # Trigger the turtle drawing script
             subprocess.Popen(["python", script_path], shell=True)
